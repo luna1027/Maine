@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrape</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dorsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container-fluid w-100">
+        <!-- Content here -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top fixed-top ps-3 pe-2">
+            <!-- nav bar -->
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="./index_bs.html">Maine</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#c1">Maine Coon</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#c2">Photo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#c3">Health</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <div class="container-fluid d-flex">
+            <!-- top -->
+            <div id="carouselExampleIndicators" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./image/maine5_5.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./image/maine3_3.jpg" class="d-block w-100 text " alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./image/maine2_2.jpg" class="d-block w-100 " alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <div class=" floor-1 container-fluid d-flex justify-content-center p-2 text-black bg-opacity-75" id="c1">
+            <!-- 第一層貓咪 -->
+            <div class="d-flex d-flex w-30 align-items-end">
+                <img class="img-fluid cat-1f " src="./image/maine2.png" alt="">
+            </div>
+            <div class="w-10 text-gray fs-25vw font-Dorsa d-flex align-items-start">01.</div>
+            <div class="d-flex flex-column border-onlyleft border-secondary w-30 min-w-241 mt-4 pt-4 ps-5">
+                <div class=" c1 pb-1 font-Dorsa">MAINE COON</div>
+                <ul class="fs-1vw lh-base list-unstyled">
+                    <li>The Maine Coon is a large domesticated cat breed. It is one of the oldest natural breeds in
+                        North
+                        America. The breed originated in the U.S. state of Maine, where it is the official state cat.
+                    </li>
+                    <br>
+                    <li>The breed was popular in cat shows in the late 19th century, but its existence became threatened
+                        when long-haired breeds from overseas were introduced in the early 20th century. The Maine Coon
+                        has
+                        since made a comeback and is now the third most popular pedigreed cat breed in the world.</li>
+                    <br>
+                    <li>The Maine Coon is a large and social cat, which could be the reason why it has a reputation of
+                        being
+                        referred to as "the gentle giant." The Maine Coon is predominantly known for its size and dense
+                        coat
+                        of fur which helps the large feline to survive in the harsh climate of Maine, the state from
+                        which
+                        they originated. The Maine Coon is often cited as having "dog-like" characteristics.</li>
+            </div>
+        </div>
+        <div class="c2 container-fluid d-flex flex-column p-2 text-black" id="c2">
+            <!-- 第二層貓咪 -->
+            <div class="c2-flex d-flex flex-column m-auto">
+                <div class="d-flex py-3 align-items-end">
+                    <div class="font-Dorsa lineheight ">
+                        PHOTO GALLERY
+                    </div>
+                    <div class="line"> </div>
+                </div>
+                <div class="c2-image c2-flex2 w-80 d-flex flex-column container">
+                    <div class="c2-flex-top w-100 d-flex my-2">
+                        <div class="p1 d-flex me-2"><img src="./image/maine12_1.jpg" width="100%" alt=""> </div>
+                        <!-- <div class="c2-flex-top-right d-flex"> -->
+                        <div class="c2-flex-top-mid d-flex flex-column justify-content-between me-2">
+                            <div class="p2 d-flex mb-2"><img src="./image/maine24.jpg" width="100%" alt=""></div>
+                            <div class="p3 d-flex"><img src="./image/maine25_1.jpg" width="100%" alt=""></div>
+                        </div>
+                        <div class="c2-flex-top-end d-flex flex-column justify-content-between">
+                            <div
+                                class="c2-font d-flex flex-fill justify-content-center text-gray font-Dorsa text-center w-100">
+                                02.</div>
+                            <div class="p4 d-flex"><img src="./image/maine22_1.jpg" width="100%" alt=""></div>
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                    <div class="p5 d-flex"><img src="./image/maine23.jpg" width="100%" alt=""> </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="c3 container-fluid d-flex text-white ps-5" id="c3">
+            <!-- 第三層貓咪 -->
+            <!-- <img class="c3-p" src="./image/maine29.jpg" width="100%" alt=""> -->
+            <div class="d-flex flex-column w-50 border-onlyleft ps-5 my-5 ms-sm-5">
+                <div class="c3-1 d-flex pb-1 font-Dorsa text-black">
+                    HEALTH
+                </div>
+                <ul class="c3-2 list-unstyled text-black">
+                    <li>Pet insurance data obtained from a study during years 2003–2006 in Sweden puts the median
+                        lifespan of the Maine Coon at > 12.5 years. 74% lived to 10 years or more and 54% lived to 12.5
+                        years or more. Maine Coons are generally a healthy and hardy breed that is adapted to survive
+                        the challenging climate of New England. The most severe threat is feline hypertrophic
+                        cardiomyopathy (HCM), the most common heart disease seen in cats, whether purebred or not. In
+                        Maine Coons, it is thought to be inherited as an autosomal dominant trait. Middle-aged to older
+                        cats and males are thought to be predisposed to the disease. HCM is a progressive disease and
+                        can result in heart failure, paralysis of the hind legs due to clot embolization originating in
+                        the heart, and sudden death.</li>
+                </ul>
+                <div class="c3-3 font-Dorsa d-flex text-white">03.</div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

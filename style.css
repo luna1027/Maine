@@ -1,0 +1,161 @@
+.container-fluid {
+    padding: 0;
+}
+
+.h-18 {
+    height: 18%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+
+.w-10 {
+    width: 10%;
+}
+
+.font-Dorsa {
+    /* font-family: 'Teko', sans-serif; */
+    font-family: 'Dorsa', sans-serif;
+    font-weight: 400;
+}
+
+.text-gray {
+    color: lightgray;
+}
+
+.fs-25vw {
+    font-size: 20vw;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.min-w-241 {
+    min-width: 310px;
+}
+
+.border-onlyleft {
+    border-left: 1px solid;
+}
+
+/* Cat-1 */
+.c1 {
+    font-size: 70px;
+    min-width: 80px;
+}
+
+.cat-1f {
+    object-fit: contain;
+}
+
+.fs-1vw {
+    font-size: 1vw;
+}
+
+@media screen and (max-width:575px) {
+    .cat-1f {
+        display: none;
+    }
+
+    .floor-1 {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)) ,url(./image/maine2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 90%;
+    }
+
+    .fs-1vw {
+        font-size: 5vw;
+    }
+}
+
+/* Cat-2 */
+
+.c2 {
+    background-color: #f8f9f9;
+    font-size: 70px;
+}
+
+.lineheight {
+    line-height: 0.8;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: #9e9f9f;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.c2-flex-top-mid {
+    width: 30%;
+}
+
+.c2-flex-top-end {
+    width: 30%;
+}
+
+@media screen and (max-width:575px){
+    .w-80{
+        width: 100%;
+    }
+}
+
+.c2-font {
+    /* width: 15vw; */
+    /* font-size: 180px; */
+    font-size: 15vw;
+}
+
+.p1 {
+    width: 40%;
+}
+
+.p2{
+    flex-grow: 1;
+    width:100%;
+    
+    
+}
+
+/* Cat-3 */
+.c3 {
+    background-image: url(./image/maine29.jpg);
+    background-size: cover;
+    background-position: bottom;
+    /* object-fit: ; */
+}
+
+.c3-1 {
+    font-size: 70px;
+}
+
+.c3-2 {}
+
+@media screen and (max-width:575px){
+    .c3-2{
+        /* font-size: 5vw; */
+    }
+
+    .w-50{
+        width: 100% !important;
+    }
+
+    .ps-5 {
+        padding-left: 1rem!important;
+    }
+}
+
+.c3-3 {
+    font-size: 180px
+}
