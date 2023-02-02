@@ -45,6 +45,15 @@
     border-left: 1px solid;
 }
 
+.content{
+    height: 24px;
+    opacity: 0.55;
+}
+
+.content:hover{
+    opacity: 1;
+}
+
 /* Cat-1 */
 .c1 {
     font-size: 70px;
@@ -65,7 +74,7 @@
     }
 
     .floor-1 {
-        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)) ,url(./image/maine2.png);
+        background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./image/maine2.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 90%;
@@ -93,7 +102,7 @@
     background-color: #9e9f9f;
 }
 
-.w-80{
+.w-80 {
     width: 80%;
 }
 
@@ -105,8 +114,8 @@
     width: 30%;
 }
 
-@media screen and (max-width:575px){
-    .w-80{
+@media screen and (max-width:575px) {
+    .w-80 {
         width: 100%;
     }
 }
@@ -121,9 +130,9 @@
     width: 40%;
 }
 
-.p2{
+.p2 {
     flex-grow: 1;
-    width:100%;
+    width: 100%;
     
     
 }
@@ -142,20 +151,60 @@
 
 .c3-2 {}
 
-@media screen and (max-width:575px){
-    .c3-2{
+@media screen and (max-width:575px) {
+    .c3-2 {
         /* font-size: 5vw; */
     }
-
-    .w-50{
+    
+    .w-50 {
         width: 100% !important;
     }
-
+    
     .ps-5 {
-        padding-left: 1rem!important;
+        padding-left: 1rem !important;
+    }
+}
+
+@media (min-width: 576px) {
+    .ms-sm-5 {
+        margin-left: 10rem !important;
     }
 }
 
 .c3-3 {
     font-size: 180px
+}
+
+.ps-5 {
+    padding-left: 5rem !important;
+}
+
+/* Cat-4 */
+.underline {
+    flex-grow: 1;
+    height: 1px;
+    background-color: lightgray;
+ 
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #9e9f9f;
+}
+
+.slick-slide img{
+    margin: 0.5rem auto;
+}
+
+.slick-track{
+    height: 540px;
+}
+
+.slider img{
+    opacity: 0.5;
+    transform: scale(0.5);
+}
+
+.slick-center img{
+    opacity: 1;
+    transform: scale(1);
 }

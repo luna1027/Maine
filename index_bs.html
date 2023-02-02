@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dorsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -42,11 +44,19 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#c3">Health</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#c4">More Cat</a>
+                        </li>
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <div class="d-flex">
+                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                        <button class="btn" type="submit">
+                            <img class="content" src="./icons/shield-cat.png" alt="">
+                            <img class="content" src="./icons/github.png" alt="">
+                            <!-- <img class="content" src="./icons/send-line.png" alt=""> -->
+                            <img class="content" src="./icons/send.png" alt="">
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -147,7 +157,7 @@
         <div class="c3 container-fluid d-flex text-white ps-5" id="c3">
             <!-- 第三層貓咪 -->
             <!-- <img class="c3-p" src="./image/maine29.jpg" width="100%" alt=""> -->
-            <div class="d-flex flex-column w-50 border-onlyleft ps-5 my-5 ms-sm-5">
+            <div class="d-flex flex-column w-30 border-onlyleft ps-5 pt-5 my-5 ms-sm-5">
                 <div class="c3-1 d-flex pb-1 font-Dorsa text-black">
                     HEALTH
                 </div>
@@ -161,8 +171,32 @@
                         cats and males are thought to be predisposed to the disease. HCM is a progressive disease and
                         can result in heart failure, paralysis of the hind legs due to clot embolization originating in
                         the heart, and sudden death.</li>
+
                 </ul>
                 <div class="c3-3 font-Dorsa d-flex text-white">03.</div>
+            </div>
+        </div>
+        <div class="c4 container-fluid d-flex text-white ps-5" id="c4">
+            <!-- 第四層貓咪 -->
+            <!-- <img class="c3-p" src="./image/maine29.jpg" width="100%" alt=""> -->
+            <div class="d-flex flex-column w-75 border-onlyleft ps-3 py-3 my-5 ms-sm-5">
+                <div class="d-flex">
+                    <div class="c3-1 w-75 d-flex flex-grow-1 pb-1 font-Dorsa text-black align-items-md-end">
+                        MORE CAT
+                        <div class="underline text-gray"> </div>
+                    </div>
+                    <div class="c4-3 c2-font font-Dorsa d-flex text-gray align-items-md-end">
+                        <div class="font-Dorsa lineheight c3-3">04.</div>
+                    </div>
+                </div>
+                <!-- <div class="more-img w-75 m-auto">
+                </div> -->
+                <!-- <div class="slider-for w-75 m-auto">
+                </div>
+                <div class="slider-nav">
+                </div> -->
+                <div class="slider center my-5">
+                </div>
             </div>
         </div>
 
@@ -171,6 +205,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./cat.js"></script>
 </body>
 
 </html>
