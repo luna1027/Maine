@@ -45,13 +45,31 @@
     border-left: 1px solid;
 }
 
-.content{
+.collapse {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    right: 0;
+    top: 0.5rem;
+}
+
+.content-img {
     height: 24px;
     opacity: 0.55;
 }
 
-.content:hover{
+.content-img:hover {
     opacity: 1;
+}
+
+.content-in {
+    /* display: none; */
+    position: absolute;
+    right: -200;
+    opacity: 0;
+    top: 0.5rem;
 }
 
 /* Cat-1 */
@@ -77,11 +95,16 @@
         background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(./image/maine2.png);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 90%;
+        /* background-position: center; */
+        background-position: 80%;
     }
 
     .fs-1vw {
         font-size: 5vw;
+    }
+
+    .w-30 {
+        width: 10%;
     }
 }
 
@@ -133,8 +156,8 @@
 .p2 {
     flex-grow: 1;
     width: 100%;
-    
-    
+
+
 }
 
 /* Cat-3 */
@@ -152,14 +175,18 @@
 .c3-2 {}
 
 @media screen and (max-width:575px) {
+    .c3 {
+        background-position: 60%;
+    }
+
     .c3-2 {
-        /* font-size: 5vw; */
+        font-size: 5vw;
     }
-    
-    .w-50 {
-        width: 100% !important;
+
+    .w-40 {
+        width: 80% !important;
     }
-    
+
     .ps-5 {
         padding-left: 1rem !important;
     }
@@ -184,27 +211,63 @@
     flex-grow: 1;
     height: 1px;
     background-color: lightgray;
- 
+    margin-top: 75px;
 }
 
-.slick-prev:before, .slick-next:before{
+.slick-prev:before,
+.slick-next:before {
     color: #9e9f9f;
 }
 
-.slick-slide img{
+.slick-slide img {
     margin: 0.5rem auto;
 }
 
-.slick-track{
+.slick-track {
     height: 540px;
 }
 
-.slider img{
+.slider img {
     opacity: 0.5;
     transform: scale(0.5);
 }
 
-.slick-center img{
+.slick-center img {
     opacity: 1;
     transform: scale(1);
+}
+
+@media screen and (max-width:575px) {
+    .slider img {
+        opacity: 0.1;
+        transform: scale(2);
+        margin: 0 50px;
+
+    }
+
+    .slick-center img {
+        opacity: 1;
+        transform: scale(5);
+        margin: 0 50px;
+        z-index: 120;
+    }
+}
+
+/* Cat-5 */
+.c5 {
+    /* background: url(./image/my3.jpg); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)), url(./image/my3.jpg);
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.5)); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;   
+}
+
+.c5-3 {
+    font-size: 180px;
+    color: #fff;
+}
+
+.w-40{
+    width: 40%;
 }

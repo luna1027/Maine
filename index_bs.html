@@ -50,12 +50,13 @@
                     </ul>
                     <div class="d-flex">
                         <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                        <button class="btn" type="submit">
-                            <img class="content" src="./icons/shield-cat.png" alt="">
-                            <img class="content" src="./icons/github.png" alt="">
-                            <!-- <img class="content" src="./icons/send-line.png" alt=""> -->
-                            <img class="content" src="./icons/send.png" alt="">
-                        </button>
+                        <div class="btn" type="submit">
+                            <div class="content"><img class="content-img" src="./icons/shield-cat.png" alt=""></div>
+                            <div class="content-in">
+                                <a href=""><img class="content-img" src="./icons/github.png" alt=""></a>
+                                <a href=""><img class="content-img" src="./icons/send.png" alt=""></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -157,7 +158,7 @@
         <div class="c3 container-fluid d-flex text-white ps-5" id="c3">
             <!-- 第三層貓咪 -->
             <!-- <img class="c3-p" src="./image/maine29.jpg" width="100%" alt=""> -->
-            <div class="d-flex flex-column w-30 border-onlyleft ps-5 pt-5 my-5 ms-sm-5">
+            <div class="d-flex flex-column w-40 border-onlyleft ps-5 pt-5 my-5 ms-sm-5">
                 <div class="c3-1 d-flex pb-1 font-Dorsa text-black">
                     HEALTH
                 </div>
@@ -176,7 +177,7 @@
                 <div class="c3-3 font-Dorsa d-flex text-white">03.</div>
             </div>
         </div>
-        <div class="c4 container-fluid d-flex text-white ps-5" id="c4">
+        <div class="c4 container-fluid vh-100 d-flex text-white ps-5" id="c4">
             <!-- 第四層貓咪 -->
             <!-- <img class="c3-p" src="./image/maine29.jpg" width="100%" alt=""> -->
             <div class="d-flex flex-column w-75 border-onlyleft ps-3 py-3 my-5 ms-sm-5">
@@ -199,6 +200,28 @@
                 </div>
             </div>
         </div>
+        <div class="c5 container-fluid d-flex text-white ps-5" id="c5">
+            <!-- 第五層貓咪 -->
+            <div class="d-flex flex-column w-100 ps-3 my-5  ms-sm-5">
+                <div class="d-flex flex-column">
+                    <div class="c3-1 w-75 d-flex flex-grow-1 pb-1 font-Dorsa text-black">
+                        CAT in WORLD -
+                        <p class="text-light">
+                            &nbsp; Countries With The Most Pet Cats Globally
+                        </p>
+                        <!-- Countries With The Most Pet Cats Globally -->
+                    </div>
+                    <div class="w-100 h-100 d-flex justify-content-around align-items-center">
+                        <div class="w-40 h-100">
+                            <canvas class="catCanvas w-100 h-100"></canvas>
+                        </div>
+                        <div class="w-40 h-100">
+                            <canvas class="catCanvasBar w-100 h-100"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
 
@@ -207,6 +230,7 @@
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./cat.js"></script>
 </body>
 
