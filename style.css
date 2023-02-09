@@ -271,3 +271,7 @@
 .w-40{
     width: 40%;
 }
+
+a{
+    text-decoration: none;
+}
